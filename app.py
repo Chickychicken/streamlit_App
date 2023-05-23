@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from matplotlib import pyplot as plt
-import io
+import io 
 
 web_apps = st.sidebar.selectbox("Select Web Apps",
                                 ("Exploratory Data Analysis", "Distributions"))
